@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM - Document Object Model</title>
@@ -23,20 +24,18 @@
     <p class="destaque">Texto com a classe destaque.</p>
 
     </main>
-    <div>
+  <div class="caixa">
     <h3>Caixa 1</h3>
-    <p>Conteudo Caixa 1.</p>
-    </div>
-
-    <div>
+    <p>Conteúdo da primeira caixa.</p>
+</div>
+<div class="caixa">
     <h3>Caixa 2</h3>
-    <p>Conteudo Caixa 2.</p>
-    </div>
-
-    <div>
+    <p>Conteúdo da segunda caixa.</p>
+</div>
+<div class="caixa">
     <h3>Caixa 3</h3>
-    <p>Conteudo Caixa 3.</p>
-    </div>
+    <p>Conteúdo da terceira caixa.</p>
+</div>
   
     <button>Botão Principal</button>
     <button>Botão Secundário</button>
@@ -66,11 +65,41 @@
 
     <label for="curso">Curso</label>
     <select id="curso">
-        <option value="">Selecione</option>
-        <option value="HTML">HTML</option>
-        <option value="CSS">CSS</option>
-        <option value="JavaScript">JavaScript</option>
+    <option value="">Selecione</option>
+    <option value="HTML">HTML</option>
+    <option value="CSS">CSS</option>
+    <option value="JavaScript">JavaScript</option>
     </select>
+   <H2>Tabela De Alunos</H2>
+   <table border="1">
+
+    <tr>
+    <th>Nome</th>
+    <th>Idade</th>
+    <th>Curso</th>
+    </tr>
+
+    <tr>
+     <td>Luan</td>
+     <td>17</td>
+     <TD>BackEnd</TD>   
+    </tr>
+
+    <tr>
+     <td>Julia</td>
+     <td>17</td>
+     <TD>Redes</TD>   
+    </tr>
+     
+    <tr>
+     <td>Matheus</td>
+     <td>18</td>
+     <TD>FrontEnd</TD>   
+    </tr>
+
+   </table> 
+
+   <p>Curso de Frontend - Manipulação do DOM</p>
 
 
 </body>

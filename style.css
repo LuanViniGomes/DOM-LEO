@@ -1,0 +1,137 @@
+
+/* Configuração geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #111;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    border-bottom: 2px solid black;
+    padding-bottom: 8px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.destaque {
+    font-weight: bold;
+}
+
+/* Caixas */
+.caixa {
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+/* Botões */
+button {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Lista */
+ul {
+    margin: 20px;
+}
+
+/* Imagem */
+img {
+    max-width: 300px;
+    height: auto;
+    border: 2px solid black;
+}
+
+/* Formulário */
+form {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+textarea {
+    height: 100px;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+/* Rodapé */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

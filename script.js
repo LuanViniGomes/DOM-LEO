@@ -16,7 +16,12 @@ btnsecund = document.querySelector("#btnsec");
 btnsecund.addEventListener("click", function() {
     caixas[0].style.border = "";
     caixas[1].style.border = "";
-    caixas[2].style.border = "";
+    caixas[2].style.border = "";         
+});
 
-
-} )
+btnprimario = document.querySelector("#btnpri");
+btnprimario.addEventListener("click", function() {
+    caixas[0].style.border = "2px solid blue";
+    caixas[1].style.border = "2px solid blue"
+    caixas[2].style.border = "2px solid blue";
+});
